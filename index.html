@@ -1,0 +1,2078 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>부송 20주년 EP4 「그래도, 부송」 — 사진 아카이브</title>
+<meta name="description" content="2021~2026 코로나를 극복하며 — 익산 부송 배드민턴 클럽 사진 75장 전체 아카이브">
+<!-- ============================================ -->
+<!-- Open Graph 메타 태그 (카톡·블로그·SNS 미리보기) -->
+<!-- ============================================ -->
+
+<!-- 기본 OG -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="부송 20주년 EP4 「그래도, 부송」 — 사진 아카이브">
+<meta property="og:description" content="2021~2026 코로나를 극복하며 — 사진 75장과 20주년 메인 영상까지. EP4 BGM과 함께 시기별로 정리된 사진 아카이브.">
+<meta property="og:image" content="./EP4_thumbnail.jpg">
+<meta property="og:image:secure_url" content="./EP4_thumbnail.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="720">
+<meta property="og:image:alt" content="부송 20주년 EP4 사진 아카이브 — 75장의 기록">
+<meta property="og:url" content="https://__SITE_URL__/">
+<meta property="og:site_name" content="부송 배드민턴 클럽 20주년">
+<meta property="og:locale" content="ko_KR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="부송 20주년 EP4 「그래도, 부송」 — 사진 아카이브">
+<meta name="twitter:description" content="2021~2026 사진 75장 + 20주년 메인 영상까지 — EP4 BGM과 함께.">
+<meta name="twitter:image" content="./EP4_thumbnail.jpg">
+
+<!-- 카카오톡 권장 (보강) -->
+<meta name="thumbnail" content="./EP4_thumbnail.jpg">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  :root {
+    --navy: #0D1B33;
+    --navy-deep: #08101F;
+    --navy-mid: #1A2A45;
+    --gold: #C9A961;
+    --gold-bright: #F0C870;
+    --cream: #F5EFD7;
+    --white: #FFFFFF;
+    --gray: #888;
+    --gray-light: #DDD;
+  }
+  
+  body {
+    font-family: 'Pretendard', 'Apple SD Gothic Neo', '맑은 고딕', sans-serif;
+    background: var(--navy-deep);
+    color: var(--white);
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+  
+  /* === 상단 히어로 === */
+  .hero {
+    background: linear-gradient(180deg, var(--navy-deep) 0%, var(--navy) 100%);
+    padding: 80px 24px 60px;
+    text-align: center;
+    border-bottom: 3px solid var(--gold);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 30%, rgba(201, 169, 97, 0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  
+  .hero-label {
+    display: inline-block;
+    border: 2px solid var(--gold);
+    color: var(--gold);
+    padding: 6px 18px;
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
+  
+  .hero-title {
+    font-size: clamp(44px, 8vw, 88px);
+    font-weight: 900;
+    line-height: 1.05;
+    margin-bottom: 8px;
+    color: var(--white);
+    letter-spacing: -0.02em;
+  }
+  
+  .hero-title .gold {
+    color: var(--gold-bright);
+  }
+  
+  .hero-sub {
+    font-size: clamp(15px, 2.5vw, 18px);
+    color: var(--gray-light);
+    margin-top: 24px;
+    font-weight: 400;
+  }
+  
+  .hero-meta {
+    margin-top: 32px;
+    font-size: 14px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  
+  .hero-meta span {
+    margin: 0 12px;
+  }
+  
+  /* === BGM 컨트롤 === */
+  .bgm-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(13, 27, 51, 0.96);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(201, 169, 97, 0.3);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .bgm-btn {
+    background: var(--gold);
+    color: var(--navy);
+    border: none;
+    padding: 10px 22px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .bgm-btn:hover {
+    background: var(--gold-bright);
+    transform: translateY(-1px);
+  }
+  
+  .bgm-btn.playing {
+    background: transparent;
+    color: var(--gold);
+    border: 2px solid var(--gold);
+    padding: 8px 20px;
+  }
+  
+  .bgm-status {
+    font-size: 13px;
+    color: var(--gray-light);
+    font-weight: 400;
+  }
+  
+  /* === 인트로 텍스트 === */
+  .intro {
+    max-width: 720px;
+    margin: 60px auto;
+    padding: 0 24px;
+    text-align: center;
+  }
+  
+  .intro p {
+    font-size: 16px;
+    color: var(--gray-light);
+    margin-bottom: 16px;
+  }
+  
+  .intro .lead {
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  
+  /* === 시기 섹션 === */
+  .section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 24px;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  
+  .section-year {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--gold-bright);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    color: var(--white);
+    margin-top: 8px;
+    font-weight: 700;
+  }
+  
+  .section-divider {
+    width: 60px;
+    height: 3px;
+    background: var(--gold);
+    margin: 16px auto 0;
+  }
+  
+  .section-count {
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: 12px;
+    letter-spacing: 0.05em;
+  }
+  
+  /* === 사진 그리드 === */
+  .grid {
+    column-count: 3;
+    column-gap: 20px;
+  }
+  
+  .photo-card {
+    break-inside: avoid;
+    margin-bottom: 20px;
+    background: var(--navy-mid);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    border: 1px solid rgba(201, 169, 97, 0.15);
+    display: block;
+  }
+  
+  .photo-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--gold);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+  }
+  
+  .photo-card.featured {
+    border: 2px solid var(--gold);
+    box-shadow: 0 0 0 1px rgba(201, 169, 97, 0.3);
+  }
+  
+  .photo-img-wrap {
+    position: relative;
+    overflow: hidden;
+    background: var(--navy-deep);
+  }
+  
+  .photo-img-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.6s;
+  }
+  
+  .photo-card:hover .photo-img-wrap img {
+    transform: scale(1.05);
+  }
+  
+  .photo-no {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(13, 27, 51, 0.85);
+    color: var(--gold);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  .photo-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: var(--gold);
+    color: var(--navy);
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 12px;
+    letter-spacing: 0.05em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+
+  
+  .photo-featured-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: var(--gold);
+    color: var(--navy);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  
+  .photo-info {
+    padding: 16px 18px;
+  }
+  
+  .photo-date {
+    font-size: 13px;
+    color: var(--gold);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+  }
+  
+  .photo-caption {
+    font-size: 14px;
+    color: var(--gray-light);
+    line-height: 1.5;
+  }
+  
+  /* === 라이트박스 === */
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .lightbox.active {
+    display: flex;
+  }
+  
+  .lightbox-content {
+    max-width: 90vw;
+    max-height: 90vh;
+    text-align: center;
+  }
+  
+  .lightbox img {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    border: 2px solid var(--gold);
+  }
+  
+  .lightbox-info {
+    color: var(--white);
+    margin-top: 20px;
+  }
+  
+  .lightbox-info .date {
+    font-size: 16px;
+    color: var(--gold);
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  
+  .lightbox-info .caption {
+    font-size: 14px;
+    color: var(--gray-light);
+  }
+  
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 32px;
+    cursor: pointer;
+    line-height: 1;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(201, 169, 97, 0.2);
+    border: 2px solid var(--gold);
+    color: var(--gold);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 22px;
+    transition: all 0.2s;
+  }
+  
+  .lightbox-nav:hover {
+    background: var(--gold);
+    color: var(--navy);
+  }
+  
+  .lightbox-prev { left: 20px; }
+  .lightbox-next { right: 20px; }
+  
+  /* === 하단 YouTube CTA === */
+  .youtube-cta {
+    position: relative;
+    background-image:
+      linear-gradient(180deg, rgba(13, 27, 51, 0.78) 0%, rgba(13, 27, 51, 0.92) 100%),
+      url('EP4_thumbnail.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 24px;
+    text-align: center;
+    margin-top: 60px;
+    border-top: 3px solid var(--gold);
+    overflow: hidden;
+  }
+  .youtube-cta > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .youtube-cta-label {
+    display: inline-block;
+    color: var(--gold);
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .youtube-cta-title {
+    font-size: clamp(28px, 5vw, 42px);
+    font-weight: 900;
+    color: var(--white);
+    margin-bottom: 12px;
+    line-height: 1.2;
+  }
+  
+  .youtube-cta-desc {
+    font-size: 16px;
+    color: var(--gray-light);
+    margin-bottom: 36px;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .youtube-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: #FF0000;
+    color: var(--white);
+    padding: 18px 40px;
+    border-radius: 32px;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s;
+    box-shadow: 0 8px 24px rgba(255, 0, 0, 0.3);
+  }
+  
+  .youtube-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(255, 0, 0, 0.45);
+  }
+  
+  .youtube-btn svg {
+    width: 28px;
+    height: 28px;
+    fill: white;
+  }
+  
+  .youtube-cta-meta {
+    margin-top: 32px;
+    font-size: 13px;
+    color: var(--gray);
+  }
+  
+  /* === 푸터 === */
+  footer {
+    background: var(--navy-deep);
+    padding: 40px 24px;
+    text-align: center;
+    border-top: 1px solid rgba(201, 169, 97, 0.2);
+  }
+  
+  .slogan {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    margin-bottom: 16px;
+    letter-spacing: 0.05em;
+  }
+  
+  .footer-info {
+    font-size: 12px;
+    color: var(--gray);
+    line-height: 1.8;
+  }
+  
+  .footer-info strong {
+    color: var(--gray-light);
+  }
+  
+  /* === 모바일 === */
+  @media (max-width: 640px) {
+    .hero { padding: 60px 20px 40px; }
+    .hero-title { font-size: 48px; }
+    .grid { column-count: 2; gap: 12px; }
+    .photo-info { padding: 12px; }
+    .photo-caption { font-size: 12px; }
+    .lightbox-nav { width: 40px; height: 40px; font-size: 18px; }
+  }
+  
+  @media (max-width: 380px) {
+    .grid { column-count: 1; }
+  }
+
+  /* === BGM 인디케이터 (우상단 floating) === */
+  .bgm-indicator {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 99;
+    background: rgba(13, 27, 51, 0.92);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(201, 169, 97, 0.4);
+    color: var(--gold);
+    padding: 8px 14px 8px 12px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+  }
+  
+  .bgm-indicator.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  
+  .bgm-indicator:hover {
+    background: rgba(13, 27, 51, 1);
+    border-color: var(--gold);
+  }
+  
+  .bgm-indicator-icon {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 16px;
+  }
+  
+  .bgm-indicator-icon .bar {
+    width: 3px;
+    background: var(--gold-bright);
+    border-radius: 1px;
+    animation: equalizer 0.9s ease-in-out infinite;
+  }
+  
+  .bgm-indicator-icon .bar:nth-child(1) { height: 8px; animation-delay: 0s; }
+  .bgm-indicator-icon .bar:nth-child(2) { height: 14px; animation-delay: 0.15s; }
+  .bgm-indicator-icon .bar:nth-child(3) { height: 10px; animation-delay: 0.3s; }
+  
+  @keyframes equalizer {
+    0%, 100% { transform: scaleY(0.3); }
+    50% { transform: scaleY(1); }
+  }
+  
+  /* 음소거 상태 (애니메이션 정지) */
+  .bgm-indicator.muted .bgm-indicator-icon .bar {
+    animation-play-state: paused;
+    background: rgba(201, 169, 97, 0.4);
+  }
+  
+  .bgm-indicator.muted {
+    color: rgba(201, 169, 97, 0.7);
+  }
+  
+  /* 모바일에서 인디케이터 위치 조정 */
+  @media (max-width: 640px) {
+    .bgm-indicator {
+      top: 70px;
+      right: 12px;
+      padding: 7px 12px 7px 10px;
+      font-size: 12px;
+    }
+  }
+  
+  /* === 「소리 켜기」 토스트 안내 === */
+  .audio-unlock-toast {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    z-index: 200;
+    background: var(--gold);
+    color: var(--navy);
+    padding: 14px 28px 14px 22px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .audio-unlock-toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+    animation: toast-pulse 2s ease-in-out infinite;
+  }
+  
+  @keyframes toast-pulse {
+    0%, 100% { box-shadow: 0 8px 24px rgba(201, 169, 97, 0.4); }
+    50% { box-shadow: 0 8px 32px rgba(240, 200, 110, 0.7); }
+  }
+  
+  .audio-unlock-toast:hover {
+    background: var(--gold-bright);
+    transform: translateX(-50%) translateY(-4px);
+  }
+  
+  .audio-unlock-toast .icon {
+    font-size: 18px;
+  }
+
+
+  /* === 메인 종합 영상 CTA (NEW) === */
+  .main-video-cta {
+    background: linear-gradient(135deg, #0D1B33 0%, #1A2A45 50%, #0D1B33 100%);
+    padding: 90px 24px;
+    text-align: center;
+    border-top: 1px solid rgba(201, 169, 97, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-video-cta::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center top, rgba(201, 169, 97, 0.12) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  
+  .main-video-cta::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 4px;
+    background: var(--gold);
+    border-radius: 0 0 4px 4px;
+  }
+  
+  .main-video-label {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--navy);
+    padding: 6px 18px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main-video-title {
+    font-size: clamp(32px, 5.5vw, 48px);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main-video-title .accent {
+    color: var(--gold-bright);
+  }
+  
+  .main-video-subtitle {
+    font-size: clamp(15px, 2.2vw, 18px);
+    color: var(--gold);
+    margin-bottom: 16px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main-video-desc {
+    font-size: 15px;
+    color: var(--gray-light);
+    line-height: 1.8;
+    max-width: 580px;
+    margin: 0 auto 32px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* 챕터 리스트 */
+  .main-video-chapters {
+    max-width: 520px;
+    margin: 0 auto 36px;
+    text-align: left;
+    background: rgba(13, 27, 51, 0.4);
+    border: 1px solid rgba(201, 169, 97, 0.25);
+    border-radius: 10px;
+    padding: 22px 28px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main-video-chapters-title {
+    font-size: 13px;
+    color: var(--gold);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+  
+  .main-video-chapters ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-video-chapters li {
+    padding: 8px 0;
+    color: var(--gray-light);
+    font-size: 14px;
+    border-bottom: 1px solid rgba(201, 169, 97, 0.08);
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+  }
+  
+  .main-video-chapters li:last-child { border-bottom: none; }
+  
+  .main-video-chapters .time {
+    color: var(--gold);
+    font-weight: 700;
+    font-family: 'SF Mono', Menlo, monospace;
+    font-size: 13px;
+    min-width: 50px;
+  }
+  
+  .main-video-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    background: linear-gradient(135deg, #FF0000 0%, #CC0000 100%);
+    color: var(--white);
+    padding: 20px 44px;
+    border-radius: 36px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s;
+    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.35);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main-video-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px rgba(255, 0, 0, 0.5);
+  }
+  
+  .main-video-btn svg {
+    width: 32px;
+    height: 32px;
+    fill: white;
+  }
+  
+  .main-video-meta {
+    margin-top: 36px;
+    font-size: 13px;
+    color: var(--gray);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main-video-meta strong {
+    color: var(--gold);
+  }
+  
+  /* 모바일 */
+  @media (max-width: 640px) {
+    .main-video-cta { padding: 60px 16px; }
+    .main-video-chapters { padding: 18px 20px; }
+    .main-video-chapters li { font-size: 13px; gap: 10px; }
+    .main-video-btn { padding: 16px 32px; font-size: 15px; }
+  }
+
+</style>
+</head>
+<body>
+
+
+<!-- 「소리 켜기」 안내 토스트 (자동 unmute 실패 시 폴백) -->
+<div id="audioUnlockToast" class="audio-unlock-toast" role="button" tabindex="0">
+  <span class="icon">🎵</span>
+  <span>EP4 음악 듣기 — 여기를 누르세요</span>
+</div>
+
+<!-- 우상단 BGM 인디케이터 (자동재생 상태 시각화) -->
+<div id="bgmIndicator" class="bgm-indicator" aria-live="polite">
+  <div class="bgm-indicator-icon">
+    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+  </div>
+  <span class="bgm-indicator-text">BGM 재생 중</span>
+</div>
+
+<!-- BGM 컨트롤 (sticky) -->
+<div class="bgm-bar">
+  <button id="bgmBtn" class="bgm-btn" aria-label="BGM 재생">
+    <span id="bgmIcon">▶</span>
+    <span id="bgmText">BGM 재생</span>
+  </button>
+  <span class="bgm-status">EP4 「그래도, 부송」 음악 — 걱정말아요 그대</span>
+  <audio id="bgmAudio" loop autoplay muted playsinline preload="auto">
+    <source src="audio/ep4_bgm.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<!-- 히어로 -->
+<header class="hero">
+  <div class="hero-label">SINCE 2007 · 20주년</div>
+  <h1 class="hero-title">
+    그래도,<br>
+    <span class="gold">부송</span>
+  </h1>
+  <p class="hero-sub">익산 부송 배드민턴 클럽 20주년 영상 시리즈 EP4<br>2021~2026 코로나를 극복하며 · 사진 75장</p>
+  <div class="hero-meta">
+    <span>2026.9.17 공개</span>·<span>D-30</span>·<span>2분 30초</span>
+  </div>
+</header>
+
+<!-- 인트로 -->
+<section class="intro">
+  <p class="lead">멈춘 시간을 넘어, 다시 코트 위에.</p>
+  <p>2021년부터 2026년까지의 75장 (코로나극복 월례대회·이취임식·어사길 가을소풍 포함).<br>
+  김학정·박상완·김종왕 회장이 이어온 5년의 회복기를 날짜순으로 정리했습니다.</p>
+  <p style="color: var(--gold); margin-top: 24px; font-size: 14px;">사진을 클릭하면 크게 볼 수 있습니다.</p>
+</section>
+
+<!-- 시기별 갤러리 -->
+<main>
+    <section class="section">
+      <div class="container">
+        <div class="section-year">2021</div>
+        <div class="section-title">★ 코로나의 한가운데</div>
+        <div class="section-subtitle">활동은 멈췄지만, 부송의 마음만은 코트 위에</div>
+        <div class="grid">
+          <div class="photo-card featured" data-idx="74">
+            <div class="photo-img-wrap">
+              <img src="photos/75_20260430.jpg" alt="2021년 6월 — 코로나 속의 한 장" loading="lazy">
+              <div class="photo-no">No. 75</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2021년 6월</div>
+              <div class="photo-caption">6월, 코로나 속에서도 남긴 한 장의 기록 — 멈출 수 없었던 부송</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-year">2022</div>
+        <div class="section-title">16기 김학정 회장 — 5기 연임의 끝</div>
+        <div class="section-subtitle">코로나극복, 다시 시작된 코트의 함성</div>
+        <div class="grid">
+          <div class="photo-card" data-idx="69">
+            <div class="photo-img-wrap">
+              <img src="photos/70_20260426.jpg" alt="2022년 — 2022년 카페 아카이브" loading="lazy">
+              <div class="photo-no">No. 70</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년</div>
+              <div class="photo-caption">16기 김학정 회장 시대 — 코로나 회복기의 한 장</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="0">
+            <div class="photo-img-wrap">
+              <img src="photos/01_20220901.jpg" alt="2022년 9월 1일 — 가을의 시작" loading="lazy">
+              <div class="photo-no">No. 01</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 9월 1일</div>
+              <div class="photo-caption">코로나 이후 다시 모이기 시작한 9월 · 김학정 회장 시대</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="1">
+            <div class="photo-img-wrap">
+              <img src="photos/02_20220924.jpg" alt="2022년 9월 24일 — 코로나극복 월례대회" loading="lazy">
+              <div class="photo-no">No. 02</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 9월 24일</div>
+              <div class="photo-caption">멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="2">
+            <div class="photo-img-wrap">
+              <img src="photos/03_20220924.jpg" alt="2022년 9월 24일 — 코로나극복 월례대회" loading="lazy">
+              <div class="photo-no">No. 03</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 9월 24일</div>
+              <div class="photo-caption">멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="3">
+            <div class="photo-img-wrap">
+              <img src="photos/04_20220924.jpg" alt="2022년 9월 24일 — 코로나극복 월례대회" loading="lazy">
+              <div class="photo-no">No. 04</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 9월 24일</div>
+              <div class="photo-caption">멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="4">
+            <div class="photo-img-wrap">
+              <img src="photos/05_20220924.jpg" alt="2022년 9월 24일 — 코로나극복 월례대회" loading="lazy">
+              <div class="photo-no">No. 05</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 9월 24일</div>
+              <div class="photo-caption">멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="5">
+            <div class="photo-img-wrap">
+              <img src="photos/06_20220924.jpg" alt="2022년 9월 24일 — 코로나극복 월례대회" loading="lazy">
+              <div class="photo-no">No. 06</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 9월 24일</div>
+              <div class="photo-caption">멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="6">
+            <div class="photo-img-wrap">
+              <img src="photos/07_20220924.jpg" alt="2022년 9월 24일 — 코로나극복 월례대회" loading="lazy">
+              <div class="photo-no">No. 07</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 9월 24일</div>
+              <div class="photo-caption">멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="7">
+            <div class="photo-img-wrap">
+              <img src="photos/08_20220924.jpg" alt="2022년 9월 24일 — 코로나극복 월례대회" loading="lazy">
+              <div class="photo-no">No. 08</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 9월 24일</div>
+              <div class="photo-caption">멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="8">
+            <div class="photo-img-wrap">
+              <img src="photos/09_20221014.jpg" alt="2022년 10월 14일 — 가을 정기 모임" loading="lazy">
+              <div class="photo-no">No. 09</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 10월 14일</div>
+              <div class="photo-caption">활기를 되찾은 클럽</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="9">
+            <div class="photo-img-wrap">
+              <img src="photos/10_20221122.jpg" alt="2022년 11월 22일 — 연말 활동" loading="lazy">
+              <div class="photo-no">No. 10</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 11월 22일</div>
+              <div class="photo-caption">김학정 회장 16기 마무리</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="10">
+            <div class="photo-img-wrap">
+              <img src="photos/11_20221122.jpg" alt="2022년 11월 22일 — 연말 활동" loading="lazy">
+              <div class="photo-no">No. 11</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2022년 11월 22일</div>
+              <div class="photo-caption">김학정 회장 16기 마무리</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-year">2023</div>
+        <div class="section-title">17기 박상완 회장 시대</div>
+        <div class="section-subtitle">새로운 리더십 — 활기의 회복</div>
+        <div class="grid">
+          <div class="photo-card featured" data-idx="11">
+            <div class="photo-img-wrap">
+              <img src="photos/12_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 12</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="12">
+            <div class="photo-img-wrap">
+              <img src="photos/13_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 13</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="13">
+            <div class="photo-img-wrap">
+              <img src="photos/14_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 14</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="14">
+            <div class="photo-img-wrap">
+              <img src="photos/15_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 15</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="15">
+            <div class="photo-img-wrap">
+              <img src="photos/16_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 16</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="16">
+            <div class="photo-img-wrap">
+              <img src="photos/17_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 17</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="17">
+            <div class="photo-img-wrap">
+              <img src="photos/18_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 18</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="18">
+            <div class="photo-img-wrap">
+              <img src="photos/19_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 19</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="19">
+            <div class="photo-img-wrap">
+              <img src="photos/20_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 20</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="20">
+            <div class="photo-img-wrap">
+              <img src="photos/21_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 21</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="21">
+            <div class="photo-img-wrap">
+              <img src="photos/22_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 22</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="22">
+            <div class="photo-img-wrap">
+              <img src="photos/23_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 23</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="23">
+            <div class="photo-img-wrap">
+              <img src="photos/24_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 24</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="24">
+            <div class="photo-img-wrap">
+              <img src="photos/25_20230107.jpg" alt="2023년 1월 7일 — 16·17기 이취임식" loading="lazy">
+              <div class="photo-no">No. 25</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 1월 7일</div>
+              <div class="photo-caption">김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="25">
+            <div class="photo-img-wrap">
+              <img src="photos/26_20230209.jpg" alt="2023년 2월 9일 — 초봄 활동" loading="lazy">
+              <div class="photo-no">No. 26</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 2월 9일</div>
+              <div class="photo-caption">박상완 회장 첫해</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="26">
+            <div class="photo-img-wrap">
+              <img src="photos/27_20230409.jpg" alt="2023년 4월 9일 — 봄철 활동" loading="lazy">
+              <div class="photo-no">No. 27</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 4월 9일</div>
+              <div class="photo-caption">벚꽃과 함께한 봄</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="73">
+            <div class="photo-img-wrap">
+              <img src="photos/74_20260430.jpg" alt="2023년 5월 — 봄철 활동" loading="lazy">
+              <div class="photo-no">No. 74</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 5월</div>
+              <div class="photo-caption">17기 박상완 회장 — 봄날의 코트</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="27">
+            <div class="photo-img-wrap">
+              <img src="photos/28_20230827.jpg" alt="2023년 8월 27일 — 여름 활동" loading="lazy">
+              <div class="photo-no">No. 28</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 8월 27일</div>
+              <div class="photo-caption">박상완 회장 17기 한여름</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="28">
+            <div class="photo-img-wrap">
+              <img src="photos/29_20230827.jpg" alt="2023년 8월 27일 — 여름 활동" loading="lazy">
+              <div class="photo-no">No. 29</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 8월 27일</div>
+              <div class="photo-caption">박상완 회장 17기 한여름</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="29">
+            <div class="photo-img-wrap">
+              <img src="photos/30_20230922.jpg" alt="2023년 9월 22일 — 가을 정기 모임" loading="lazy">
+              <div class="photo-no">No. 30</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 9월 22일</div>
+              <div class="photo-caption">계절의 변화 속에서</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="30">
+            <div class="photo-img-wrap">
+              <img src="photos/31_20231209.jpg" alt="2023년 12월 9일 — 연말 모임" loading="lazy">
+              <div class="photo-no">No. 31</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 12월 9일</div>
+              <div class="photo-caption">17기 박상완 회장 한 해 마무리</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="31">
+            <div class="photo-img-wrap">
+              <img src="photos/32_20231209.jpg" alt="2023년 12월 9일 — 연말 모임" loading="lazy">
+              <div class="photo-no">No. 32</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 12월 9일</div>
+              <div class="photo-caption">17기 박상완 회장 한 해 마무리</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="32">
+            <div class="photo-img-wrap">
+              <img src="photos/33_20231209.jpg" alt="2023년 12월 9일 — 연말 모임" loading="lazy">
+              <div class="photo-no">No. 33</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2023년 12월 9일</div>
+              <div class="photo-caption">17기 박상완 회장 한 해 마무리</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-year">2024</div>
+        <div class="section-title">18기 박상완 회장 — 연임의 안정기</div>
+        <div class="section-subtitle">꾸준함이 만든 일상의 기록</div>
+        <div class="grid">
+          <div class="photo-card" data-idx="33">
+            <div class="photo-img-wrap">
+              <img src="photos/34_20240324.jpg" alt="2024년 3월 24일 — 새봄 정기 모임" loading="lazy">
+              <div class="photo-no">No. 34</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 3월 24일</div>
+              <div class="photo-caption">18기 박상완 회장 시작</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="34">
+            <div class="photo-img-wrap">
+              <img src="photos/35_20240412.jpg" alt="2024년 4월 12일 — 봄 저녁 모임" loading="lazy">
+              <div class="photo-no">No. 35</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 4월 12일</div>
+              <div class="photo-caption">4월의 부송 — 활기찬 평일 저녁</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="35">
+            <div class="photo-img-wrap">
+              <img src="photos/36_20240421.jpg" alt="2024년 4월 21일 — 봄 활동" loading="lazy">
+              <div class="photo-no">No. 36</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 4월 21일</div>
+              <div class="photo-caption">따뜻한 4월의 부송</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="36">
+            <div class="photo-img-wrap">
+              <img src="photos/37_20240421.jpg" alt="2024년 4월 21일 — 봄 활동" loading="lazy">
+              <div class="photo-no">No. 37</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 4월 21일</div>
+              <div class="photo-caption">따뜻한 4월의 부송</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="72">
+            <div class="photo-img-wrap">
+              <img src="photos/73_20260430.jpg" alt="2024년 5월 — 봄철 활동" loading="lazy">
+              <div class="photo-no">No. 73</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 5월</div>
+              <div class="photo-caption">18기 박상완 회장 — 5월의 부송</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="37">
+            <div class="photo-img-wrap">
+              <img src="photos/38_20240818.jpg" alt="2024년 8월 18일 — 한여름 활동" loading="lazy">
+              <div class="photo-no">No. 38</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 8월 18일</div>
+              <div class="photo-caption">8월의 열기 속에서</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="38">
+            <div class="photo-img-wrap">
+              <img src="photos/39_20240818.jpg" alt="2024년 8월 18일 — 한여름 활동" loading="lazy">
+              <div class="photo-no">No. 39</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 8월 18일</div>
+              <div class="photo-caption">8월의 열기 속에서</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="39">
+            <div class="photo-img-wrap">
+              <img src="photos/40_20240818.jpg" alt="2024년 8월 18일 — 한여름 활동" loading="lazy">
+              <div class="photo-no">No. 40</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 8월 18일</div>
+              <div class="photo-caption">8월의 열기 속에서</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="40">
+            <div class="photo-img-wrap">
+              <img src="photos/41_20240823.jpg" alt="2024년 8월 23일 — 늦여름 모임" loading="lazy">
+              <div class="photo-no">No. 41</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 8월 23일</div>
+              <div class="photo-caption">8월의 마무리 — 평일 저녁의 부송</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="41">
+            <div class="photo-img-wrap">
+              <img src="photos/42_20241018.jpg" alt="2024년 10월 18일 — 가을 활동 · 학교 거점 행사" loading="lazy">
+              <div class="photo-no">No. 42</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 10월 18일</div>
+              <div class="photo-caption">단풍과 함께 — 부송중학교 강당에서</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="42">
+            <div class="photo-img-wrap">
+              <img src="photos/43_20241018.jpg" alt="2024년 10월 18일 — 가을 활동 · 학교 거점 행사" loading="lazy">
+              <div class="photo-no">No. 43</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 10월 18일</div>
+              <div class="photo-caption">단풍과 함께 — 부송중학교 강당에서</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="43">
+            <div class="photo-img-wrap">
+              <img src="photos/44_20241102.jpg" alt="2024년 11월 2일 — 초겨울 정기 모임" loading="lazy">
+              <div class="photo-no">No. 44</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 11월 2일</div>
+              <div class="photo-caption">18기 박상완 회장 마무리</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="70">
+            <div class="photo-img-wrap">
+              <img src="photos/71_20260430.jpg" alt="2024년 12월 — 연말 활동" loading="lazy">
+              <div class="photo-no">No. 71</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 12월</div>
+              <div class="photo-caption">18기 박상완 회장 — 2024년의 마무리</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="71">
+            <div class="photo-img-wrap">
+              <img src="photos/72_20260430.jpg" alt="2024년 12월 — 연말 활동" loading="lazy">
+              <div class="photo-no">No. 72</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2024년 12월</div>
+              <div class="photo-caption">18기 박상완 회장 — 2024년의 마무리</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-year">2025</div>
+        <div class="section-title">19기 김종왕 회장 — 20주년을 향해</div>
+        <div class="section-subtitle">다음 20년을 준비하는 한 해</div>
+        <div class="grid">
+          <div class="photo-card featured" data-idx="44">
+            <div class="photo-img-wrap">
+              <img src="photos/45_20250110.jpg" alt="2025년 1월 10일 — 18·19기 이취임식" loading="lazy">
+              <div class="photo-no">No. 45</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 1월 10일</div>
+              <div class="photo-caption">박상완 회장 → 김종왕 회장 · 20주년의 해를 향해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="45">
+            <div class="photo-img-wrap">
+              <img src="photos/46_20250110.jpg" alt="2025년 1월 10일 — 18·19기 이취임식" loading="lazy">
+              <div class="photo-no">No. 46</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 1월 10일</div>
+              <div class="photo-caption">박상완 회장 → 김종왕 회장 · 20주년의 해를 향해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="46">
+            <div class="photo-img-wrap">
+              <img src="photos/47_20250110.jpg" alt="2025년 1월 10일 — 18·19기 이취임식" loading="lazy">
+              <div class="photo-no">No. 47</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 1월 10일</div>
+              <div class="photo-caption">박상완 회장 → 김종왕 회장 · 20주년의 해를 향해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="47">
+            <div class="photo-img-wrap">
+              <img src="photos/48_20250110.jpg" alt="2025년 1월 10일 — 18·19기 이취임식" loading="lazy">
+              <div class="photo-no">No. 48</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 1월 10일</div>
+              <div class="photo-caption">박상완 회장 → 김종왕 회장 · 20주년의 해를 향해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="48">
+            <div class="photo-img-wrap">
+              <img src="photos/49_20250110.jpg" alt="2025년 1월 10일 — 18·19기 이취임식" loading="lazy">
+              <div class="photo-no">No. 49</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 1월 10일</div>
+              <div class="photo-caption">박상완 회장 → 김종왕 회장 · 20주년의 해를 향해</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="49">
+            <div class="photo-img-wrap">
+              <img src="photos/50_20250110.jpg" alt="2025년 1월 10일 — 18·19기 이취임식" loading="lazy">
+              <div class="photo-no">No. 50</div>
+              <div class="photo-badge">★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 1월 10일</div>
+              <div class="photo-caption">박상완 회장 → 김종왕 회장 · 20주년의 해를 향해</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="50">
+            <div class="photo-img-wrap">
+              <img src="photos/51_20250228.jpg" alt="2025년 2월 28일 — 새해 활동" loading="lazy">
+              <div class="photo-no">No. 51</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 2월 28일</div>
+              <div class="photo-caption">김종왕 회장 첫해</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="51">
+            <div class="photo-img-wrap">
+              <img src="photos/52_20250228.jpg" alt="2025년 2월 28일 — 새해 활동" loading="lazy">
+              <div class="photo-no">No. 52</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 2월 28일</div>
+              <div class="photo-caption">김종왕 회장 첫해</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="52">
+            <div class="photo-img-wrap">
+              <img src="photos/53_20250425.jpg" alt="2025년 4월 25일 — 봄 활동" loading="lazy">
+              <div class="photo-no">No. 53</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 4월 25일</div>
+              <div class="photo-caption">벚꽃 시즌의 부송</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="53">
+            <div class="photo-img-wrap">
+              <img src="photos/54_20250622.jpg" alt="2025년 6월 22일 — 초여름 활동" loading="lazy">
+              <div class="photo-no">No. 54</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 6월 22일</div>
+              <div class="photo-caption">계절의 한가운데</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="54">
+            <div class="photo-img-wrap">
+              <img src="photos/55_20250627.jpg" alt="2025년 6월 27일 — 여름 정기 모임" loading="lazy">
+              <div class="photo-no">No. 55</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 6월 27일</div>
+              <div class="photo-caption">6월의 부송</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="55">
+            <div class="photo-img-wrap">
+              <img src="photos/56_20250801.jpg" alt="2025년 8월 1일 — 한여름 활동" loading="lazy">
+              <div class="photo-no">No. 56</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 8월 1일</div>
+              <div class="photo-caption">8월의 시작</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="56">
+            <div class="photo-img-wrap">
+              <img src="photos/57_20250808.jpg" alt="2025년 8월 8일 — 하계 활동" loading="lazy">
+              <div class="photo-no">No. 57</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 8월 8일</div>
+              <div class="photo-caption">여름의 절정</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="57">
+            <div class="photo-img-wrap">
+              <img src="photos/58_20250919.jpg" alt="2025년 9월 19일 — 가을의 시작" loading="lazy">
+              <div class="photo-no">No. 58</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 9월 19일</div>
+              <div class="photo-caption">선선한 9월의 코트</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="58">
+            <div class="photo-img-wrap">
+              <img src="photos/59_20251019.jpg" alt="2025년 10월 19일 — 어사길 가을소풍" loading="lazy">
+              <div class="photo-no">No. 59</div>
+              <div class="photo-badge">★★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 10월 19일</div>
+              <div class="photo-caption">D-30 단일 클라이맥스 — 김종왕 회장이 함께한 가을, 부송의 길</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="59">
+            <div class="photo-img-wrap">
+              <img src="photos/60_20251019.jpg" alt="2025년 10월 19일 — 어사길 가을소풍" loading="lazy">
+              <div class="photo-no">No. 60</div>
+              <div class="photo-badge">★★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 10월 19일</div>
+              <div class="photo-caption">D-30 단일 클라이맥스 — 김종왕 회장이 함께한 가을, 부송의 길</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="60">
+            <div class="photo-img-wrap">
+              <img src="photos/61_20251019.jpg" alt="2025년 10월 19일 — 어사길 가을소풍" loading="lazy">
+              <div class="photo-no">No. 61</div>
+              <div class="photo-badge">★★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 10월 19일</div>
+              <div class="photo-caption">D-30 단일 클라이맥스 — 김종왕 회장이 함께한 가을, 부송의 길</div>
+            </div>
+          </div>
+          <div class="photo-card featured" data-idx="61">
+            <div class="photo-img-wrap">
+              <img src="photos/62_20251019.jpg" alt="2025년 10월 19일 — 어사길 가을소풍" loading="lazy">
+              <div class="photo-no">No. 62</div>
+              <div class="photo-badge">★★</div>
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 10월 19일</div>
+              <div class="photo-caption">D-30 단일 클라이맥스 — 김종왕 회장이 함께한 가을, 부송의 길</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="62">
+            <div class="photo-img-wrap">
+              <img src="photos/63_20251205.jpg" alt="2025년 12월 5일 — 연말 모임" loading="lazy">
+              <div class="photo-no">No. 63</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 12월 5일</div>
+              <div class="photo-caption">19기 김종왕 회장 첫해 마무리</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="63">
+            <div class="photo-img-wrap">
+              <img src="photos/64_20251205.jpg" alt="2025년 12월 5일 — 연말 모임" loading="lazy">
+              <div class="photo-no">No. 64</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2025년 12월 5일</div>
+              <div class="photo-caption">19기 김종왕 회장 첫해 마무리</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-year">2026</div>
+        <div class="section-title">20기 김종왕 회장 — 20주년의 해</div>
+        <div class="section-subtitle">창단부터 오늘까지, 그리고 내일</div>
+        <div class="grid">
+          <div class="photo-card" data-idx="64">
+            <div class="photo-img-wrap">
+              <img src="photos/65_20260116.jpg" alt="2026년 1월 16일 — 새해 정기 모임" loading="lazy">
+              <div class="photo-no">No. 65</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2026년 1월 16일</div>
+              <div class="photo-caption">20기 김종왕 회장 · 20주년의 해 시작</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="65">
+            <div class="photo-img-wrap">
+              <img src="photos/66_20260116.jpg" alt="2026년 1월 16일 — 새해 정기 모임" loading="lazy">
+              <div class="photo-no">No. 66</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2026년 1월 16일</div>
+              <div class="photo-caption">20기 김종왕 회장 · 20주년의 해 시작</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="66">
+            <div class="photo-img-wrap">
+              <img src="photos/67_20260116.jpg" alt="2026년 1월 16일 — 새해 정기 모임" loading="lazy">
+              <div class="photo-no">No. 67</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2026년 1월 16일</div>
+              <div class="photo-caption">20기 김종왕 회장 · 20주년의 해 시작</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="67">
+            <div class="photo-img-wrap">
+              <img src="photos/68_20260308.jpg" alt="2026년 3월 8일 — 초봄 활동" loading="lazy">
+              <div class="photo-no">No. 68</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2026년 3월 8일</div>
+              <div class="photo-caption">20주년 D-Day 카운트다운</div>
+            </div>
+          </div>
+          <div class="photo-card" data-idx="68">
+            <div class="photo-img-wrap">
+              <img src="photos/69_20260308.jpg" alt="2026년 3월 8일 — 초봄 활동" loading="lazy">
+              <div class="photo-no">No. 69</div>
+              
+            </div>
+            <div class="photo-info">
+              <div class="photo-date">2026년 3월 8일</div>
+              <div class="photo-caption">20주년 D-Day 카운트다운</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+
+<!-- YouTube CTA -->
+<section class="youtube-cta">
+  <div class="youtube-cta-label">▶ FULL VIDEO</div>
+  <h2 class="youtube-cta-title">EP4 영상 전편 보기</h2>
+  <p class="youtube-cta-desc">
+    이 75장의 사진이 2분 30초의 영상으로 다시 살아납니다.<br>
+    YouTube에서 본편을 시청하세요.
+  </p>
+  <a href="https://youtu.be/__EP4_VIDEO_ID__" target="_blank" rel="noopener" class="youtube-btn">
+    <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+    YouTube에서 영상 보기
+  </a>
+  <div class="youtube-cta-meta">
+    https://youtu.be/__EP4_VIDEO_ID__ · 2분 30초 · 2026.9.17 공개
+  </div>
+</section>
+
+
+<!-- ============================================ -->
+<!-- 메인 종합 영상 CTA — 20주년 전체 이야기 -->
+<!-- ============================================ -->
+<section class="main-video-cta">
+  <div class="main-video-label">★ MAIN VIDEO</div>
+  <h2 class="main-video-title">
+    20년의 한마음,<br>
+    <span class="accent">부송의 이야기</span>
+  </h2>
+  <p class="main-video-subtitle">2007 → 2026, 20년 전체 서사를 담은 종합 영상</p>
+  <p class="main-video-desc">
+    EP4가 「그래도, 부송」을 담았다면,<br>
+    이 영상은 <strong style="color: var(--gold);">2007년 첫걸음부터 2026년 오늘까지</strong>의<br>
+    20년 전체 이야기를 한 편에 모은 종합 영상입니다.
+  </p>
+  
+  <div class="main-video-chapters">
+    <div class="main-video-chapters-title">▷ CHAPTERS</div>
+    <ul>
+      <li><span class="time">00:00</span><span>오프닝 — 20년의 한마음</span></li>
+      <li><span class="time">00:30</span><span>EP1  2007 ~ 2010  창단의 열정</span></li>
+      <li><span class="time">02:00</span><span>EP2  2011 ~ 2015  함께 자란 시간</span></li>
+      <li><span class="time">03:30</span><span>EP3  2016 ~ 2020  역사를 잇다</span></li>
+      <li><span class="time">05:00</span><span>EP4  2021 ~ 2026  그래도, 부송</span></li>
+      <li><span class="time">06:30</span><span>다음 20년을 향하여</span></li>
+    </ul>
+  </div>
+  
+  <a href="https://youtu.be/__EP4_MAIN_VIDEO_ID__" target="_blank" rel="noopener" class="main-video-btn">
+    <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+    20주년 전체 영상 보기
+  </a>
+  
+  <div class="main-video-meta">
+    <strong>약 7분</strong>  ·  https://youtu.be/__EP4_MAIN_VIDEO_ID__  ·  2026.4.13 공개
+  </div>
+</section>
+
+
+<!-- 푸터 -->
+<footer>
+  <div class="slogan">하나되는 우리!  승리하는 부송!</div>
+  <div class="footer-info">
+    <strong>익산 부송 배드민턴 클럽</strong>  ·  창단 2007년 1월<br>
+    20주년 영상 시리즈 기획 총괄 · 김만민 남부회장<br>
+    발신·승인 · 김종왕 회장<br><br>
+    BUSONG · 2007~2026<br><br>
+    <a href="https://youtu.be/__EP4_MAIN_VIDEO_ID__" target="_blank" rel="noopener" 
+       style="color: var(--gold); text-decoration: none; font-size: 11px;">
+      ▶ 20주년 전체 영상 다시 보기
+    </a>
+  </div>
+</footer>
+
+<!-- 라이트박스 -->
+<div id="lightbox" class="lightbox">
+  <button class="lightbox-close" aria-label="닫기">✕</button>
+  <button class="lightbox-nav lightbox-prev" aria-label="이전">‹</button>
+  <button class="lightbox-nav lightbox-next" aria-label="다음">›</button>
+  <div class="lightbox-content">
+    <img id="lightboxImg" src="" alt="">
+    <div class="lightbox-info">
+      <div class="date" id="lightboxDate"></div>
+      <div class="caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const PHOTOS = [{"file": "01_20220901.jpg", "date_kor": "2022년 9월 1일", "caption": "코로나 이후 다시 모이기 시작한 9월 · 김학정 회장 시대"}, {"file": "02_20220924.jpg", "date_kor": "2022년 9월 24일", "caption": "멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해"}, {"file": "03_20220924.jpg", "date_kor": "2022년 9월 24일", "caption": "멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해"}, {"file": "04_20220924.jpg", "date_kor": "2022년 9월 24일", "caption": "멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해"}, {"file": "05_20220924.jpg", "date_kor": "2022년 9월 24일", "caption": "멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해"}, {"file": "06_20220924.jpg", "date_kor": "2022년 9월 24일", "caption": "멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해"}, {"file": "07_20220924.jpg", "date_kor": "2022년 9월 24일", "caption": "멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해"}, {"file": "08_20220924.jpg", "date_kor": "2022년 9월 24일", "caption": "멈췄던 시간을 넘어 — 김학정 회장 5기 연임의 마지막 해"}, {"file": "09_20221014.jpg", "date_kor": "2022년 10월 14일", "caption": "활기를 되찾은 클럽"}, {"file": "10_20221122.jpg", "date_kor": "2022년 11월 22일", "caption": "김학정 회장 16기 마무리"}, {"file": "11_20221122.jpg", "date_kor": "2022년 11월 22일", "caption": "김학정 회장 16기 마무리"}, {"file": "12_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "13_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "14_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "15_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "16_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "17_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "18_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "19_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "20_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "21_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "22_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "23_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "24_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "25_20230107.jpg", "date_kor": "2023년 1월 7일", "caption": "김학정 회장(5기 연임) → 박상완 회장 · 새로운 리더십"}, {"file": "26_20230209.jpg", "date_kor": "2023년 2월 9일", "caption": "박상완 회장 첫해"}, {"file": "27_20230409.jpg", "date_kor": "2023년 4월 9일", "caption": "벚꽃과 함께한 봄"}, {"file": "28_20230827.jpg", "date_kor": "2023년 8월 27일", "caption": "박상완 회장 17기 한여름"}, {"file": "29_20230827.jpg", "date_kor": "2023년 8월 27일", "caption": "박상완 회장 17기 한여름"}, {"file": "30_20230922.jpg", "date_kor": "2023년 9월 22일", "caption": "계절의 변화 속에서"}, {"file": "31_20231209.jpg", "date_kor": "2023년 12월 9일", "caption": "17기 박상완 회장 한 해 마무리"}, {"file": "32_20231209.jpg", "date_kor": "2023년 12월 9일", "caption": "17기 박상완 회장 한 해 마무리"}, {"file": "33_20231209.jpg", "date_kor": "2023년 12월 9일", "caption": "17기 박상완 회장 한 해 마무리"}, {"file": "34_20240324.jpg", "date_kor": "2024년 3월 24일", "caption": "18기 박상완 회장 시작"}, {"file": "35_20240412.jpg", "date_kor": "2024년 4월 12일", "caption": "4월의 부송 — 활기찬 평일 저녁"}, {"file": "36_20240421.jpg", "date_kor": "2024년 4월 21일", "caption": "따뜻한 4월의 부송"}, {"file": "37_20240421.jpg", "date_kor": "2024년 4월 21일", "caption": "따뜻한 4월의 부송"}, {"file": "38_20240818.jpg", "date_kor": "2024년 8월 18일", "caption": "8월의 열기 속에서"}, {"file": "39_20240818.jpg", "date_kor": "2024년 8월 18일", "caption": "8월의 열기 속에서"}, {"file": "40_20240818.jpg", "date_kor": "2024년 8월 18일", "caption": "8월의 열기 속에서"}, {"file": "41_20240823.jpg", "date_kor": "2024년 8월 23일", "caption": "8월의 마무리 — 평일 저녁의 부송"}, {"file": "42_20241018.jpg", "date_kor": "2024년 10월 18일", "caption": "단풍과 함께 — 부송중학교 강당에서"}, {"file": "43_20241018.jpg", "date_kor": "2024년 10월 18일", "caption": "단풍과 함께 — 부송중학교 강당에서"}, {"file": "44_20241102.jpg", "date_kor": "2024년 11월 2일", "caption": "18기 박상완 회장 마무리"}, {"file": "45_20250110.jpg", "date_kor": "2025년 1월 10일", "caption": "박상완 회장 → 김종왕 회장 · 20주년의 해를 향해"}, {"file": "46_20250110.jpg", "date_kor": "2025년 1월 10일", "caption": "박상완 회장 → 김종왕 회장 · 20주년의 해를 향해"}, {"file": "47_20250110.jpg", "date_kor": "2025년 1월 10일", "caption": "박상완 회장 → 김종왕 회장 · 20주년의 해를 향해"}, {"file": "48_20250110.jpg", "date_kor": "2025년 1월 10일", "caption": "박상완 회장 → 김종왕 회장 · 20주년의 해를 향해"}, {"file": "49_20250110.jpg", "date_kor": "2025년 1월 10일", "caption": "박상완 회장 → 김종왕 회장 · 20주년의 해를 향해"}, {"file": "50_20250110.jpg", "date_kor": "2025년 1월 10일", "caption": "박상완 회장 → 김종왕 회장 · 20주년의 해를 향해"}, {"file": "51_20250228.jpg", "date_kor": "2025년 2월 28일", "caption": "김종왕 회장 첫해"}, {"file": "52_20250228.jpg", "date_kor": "2025년 2월 28일", "caption": "김종왕 회장 첫해"}, {"file": "53_20250425.jpg", "date_kor": "2025년 4월 25일", "caption": "벚꽃 시즌의 부송"}, {"file": "54_20250622.jpg", "date_kor": "2025년 6월 22일", "caption": "계절의 한가운데"}, {"file": "55_20250627.jpg", "date_kor": "2025년 6월 27일", "caption": "6월의 부송"}, {"file": "56_20250801.jpg", "date_kor": "2025년 8월 1일", "caption": "8월의 시작"}, {"file": "57_20250808.jpg", "date_kor": "2025년 8월 8일", "caption": "여름의 절정"}, {"file": "58_20250919.jpg", "date_kor": "2025년 9월 19일", "caption": "선선한 9월의 코트"}, {"file": "59_20251019.jpg", "date_kor": "2025년 10월 19일", "caption": "D-30 단일 클라이맥스 — 김종왕 회장이 함께한 가을, 부송의 길"}, {"file": "60_20251019.jpg", "date_kor": "2025년 10월 19일", "caption": "D-30 단일 클라이맥스 — 김종왕 회장이 함께한 가을, 부송의 길"}, {"file": "61_20251019.jpg", "date_kor": "2025년 10월 19일", "caption": "D-30 단일 클라이맥스 — 김종왕 회장이 함께한 가을, 부송의 길"}, {"file": "62_20251019.jpg", "date_kor": "2025년 10월 19일", "caption": "D-30 단일 클라이맥스 — 김종왕 회장이 함께한 가을, 부송의 길"}, {"file": "63_20251205.jpg", "date_kor": "2025년 12월 5일", "caption": "19기 김종왕 회장 첫해 마무리"}, {"file": "64_20251205.jpg", "date_kor": "2025년 12월 5일", "caption": "19기 김종왕 회장 첫해 마무리"}, {"file": "65_20260116.jpg", "date_kor": "2026년 1월 16일", "caption": "20기 김종왕 회장 · 20주년의 해 시작"}, {"file": "66_20260116.jpg", "date_kor": "2026년 1월 16일", "caption": "20기 김종왕 회장 · 20주년의 해 시작"}, {"file": "67_20260116.jpg", "date_kor": "2026년 1월 16일", "caption": "20기 김종왕 회장 · 20주년의 해 시작"}, {"file": "68_20260308.jpg", "date_kor": "2026년 3월 8일", "caption": "20주년 D-Day 카운트다운"}, {"file": "69_20260308.jpg", "date_kor": "2026년 3월 8일", "caption": "20주년 D-Day 카운트다운"}, {"file": "70_20260426.jpg", "date_kor": "2022년", "caption": "16기 김학정 회장 시대 — 코로나 회복기의 한 장"}, {"file": "71_20260430.jpg", "date_kor": "2024년 12월", "caption": "18기 박상완 회장 — 2024년의 마무리"}, {"file": "72_20260430.jpg", "date_kor": "2024년 12월", "caption": "18기 박상완 회장 — 2024년의 마무리"}, {"file": "73_20260430.jpg", "date_kor": "2024년 5월", "caption": "18기 박상완 회장 — 5월의 부송"}, {"file": "74_20260430.jpg", "date_kor": "2023년 5월", "caption": "17기 박상완 회장 — 봄날의 코트"}, {"file": "75_20260430.jpg", "date_kor": "2021년 6월", "caption": "6월, 코로나 속에서도 남긴 한 장의 기록 — 멈출 수 없었던 부송"}];
+  
+  // === 라이트박스 ===
+  let currentIdx = 0;
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightboxImg');
+  const lbDate = document.getElementById('lightboxDate');
+  const lbCap = document.getElementById('lightboxCaption');
+  
+  function openLightbox(idx) {
+    currentIdx = idx;
+    const p = PHOTOS[idx];
+    lbImg.src = `photos/${p.file}`;
+    lbDate.textContent = p.date_kor;
+    lbCap.textContent = p.caption;
+    lb.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+  
+  function closeLightbox() {
+    lb.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+  
+  function navLightbox(dir) {
+    currentIdx = (currentIdx + dir + PHOTOS.length) % PHOTOS.length;
+    openLightbox(currentIdx);
+  }
+  
+  document.addEventListener('click', (e) => {
+    const card = e.target.closest('.photo-card');
+    if (card) {
+      const idx = parseInt(card.dataset.idx);
+      if (!isNaN(idx)) openLightbox(idx);
+    }
+  });
+  
+  document.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+  document.querySelector('.lightbox-prev').addEventListener('click', (e) => { e.stopPropagation(); navLightbox(-1); });
+  document.querySelector('.lightbox-next').addEventListener('click', (e) => { e.stopPropagation(); navLightbox(1); });
+  
+  lb.addEventListener('click', (e) => {
+    if (e.target === lb) closeLightbox();
+  });
+  
+  document.addEventListener('keydown', (e) => {
+    if (!lb.classList.contains('active')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navLightbox(-1);
+    if (e.key === 'ArrowRight') navLightbox(1);
+  });
+  
+  // === BGM 하이브리드 자동재생 (방법 2 + 방법 3) ===
+  const bgmBtn = document.getElementById('bgmBtn');
+  const bgmIcon = document.getElementById('bgmIcon');
+  const bgmText = document.getElementById('bgmText');
+  const bgmAudio = document.getElementById('bgmAudio');
+  const indicator = document.getElementById('bgmIndicator');
+  const indicatorText = indicator.querySelector('.bgm-indicator-text');
+  const unlockToast = document.getElementById('audioUnlockToast');
+  
+  const STORAGE_KEY = 'busong_ep4_bgm_pref';
+  const userPref = localStorage.getItem(STORAGE_KEY); // 'on' | 'off' | null
+  
+  bgmAudio.volume = 0.5;
+  
+  // ====================================================
+  // 상태 헬퍼
+  // ====================================================
+  function showIndicator(muted) {
+    indicator.classList.add('visible');
+    if (muted) {
+      indicator.classList.add('muted');
+      indicatorText.textContent = '🔇 음소거됨 — 클릭하여 듣기';
+    } else {
+      indicator.classList.remove('muted');
+      indicatorText.textContent = '♪ EP4 음악 재생 중';
+    }
+  }
+  
+  function syncBgmBtn() {
+    if (bgmAudio.paused || bgmAudio.muted) {
+      bgmIcon.textContent = '▶';
+      bgmText.textContent = bgmAudio.muted ? '소리 켜기' : 'BGM 재생';
+      bgmBtn.classList.remove('playing');
+    } else {
+      bgmIcon.textContent = '❚❚';
+      bgmText.textContent = 'BGM 일시정지';
+      bgmBtn.classList.add('playing');
+    }
+  }
+  
+  function showUnlockToast() {
+    unlockToast.classList.add('show');
+  }
+  function hideUnlockToast() {
+    unlockToast.classList.remove('show');
+  }
+  
+  // ====================================================
+  // 단계 1: 음소거 자동재생 (모든 브라우저 허용)
+  // ====================================================
+  function startMutedAutoplay() {
+    bgmAudio.muted = true;
+    const promise = bgmAudio.play();
+    if (promise) {
+      promise.then(() => {
+        showIndicator(true);
+        syncBgmBtn();
+      }).catch(err => {
+        // 음소거 자동재생도 실패한 극단적 케이스 (인앱 브라우저 등)
+        console.log('음소거 자동재생 실패:', err);
+        showIndicator(true); // 인디케이터는 그대로 노출
+        showUnlockToast();   // 토스트 노출
+      });
+    }
+  }
+  
+  // ====================================================
+  // 단계 2: 첫 사용자 인터랙션 시 자동 unmute
+  // ====================================================
+  let unlocked = false;
+  function unlockAudio(event) {
+    if (unlocked) return;
+    
+    // 사용자가 명시적으로 "꺼두기"를 선택한 경우 자동 unmute 안 함
+    if (userPref === 'off') {
+      unlocked = true;
+      return;
+    }
+    
+    bgmAudio.muted = false;
+    
+    // 만약 이전에 paused 상태였다면 다시 play()
+    if (bgmAudio.paused) {
+      bgmAudio.play().catch(err => {
+        console.log('unmute 후 재생 실패:', err);
+        showUnlockToast();
+        return;
+      });
+    }
+    
+    unlocked = true;
+    showIndicator(false);
+    syncBgmBtn();
+    hideUnlockToast();
+    localStorage.setItem(STORAGE_KEY, 'on');
+    
+    // 모든 인터랙션 리스너 정리
+    ['touchstart', 'mousedown', 'keydown', 'scroll', 'click'].forEach(evt => {
+      window.removeEventListener(evt, unlockAudio, { capture: true });
+    });
+  }
+  
+  // 모든 인터랙션 이벤트 capture 단계에서 감지
+  ['touchstart', 'mousedown', 'keydown', 'scroll', 'click'].forEach(evt => {
+    window.addEventListener(evt, unlockAudio, { capture: true, passive: true });
+  });
+  
+  // ====================================================
+  // 단계 3: 토스트·인디케이터·BGM 버튼 클릭 시 즉시 unmute
+  // ====================================================
+  unlockToast.addEventListener('click', (e) => {
+    e.stopPropagation();
+    unlockAudio();
+  });
+  
+  indicator.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (bgmAudio.muted) {
+      unlockAudio();
+    } else {
+      // 이미 재생 중이면 일시정지 토글
+      bgmBtn.click();
+    }
+  });
+  
+  // ====================================================
+  // 폴백: 기존 sticky bar의 ▶ 버튼 (수동 컨트롤)
+  // ====================================================
+  bgmBtn.addEventListener('click', () => {
+    if (bgmAudio.paused || bgmAudio.muted) {
+      bgmAudio.muted = false;
+      bgmAudio.play().then(() => {
+        unlocked = true;
+        showIndicator(false);
+        syncBgmBtn();
+        hideUnlockToast();
+        localStorage.setItem(STORAGE_KEY, 'on');
+      }).catch(err => {
+        console.log('수동 재생 실패:', err);
+      });
+    } else {
+      bgmAudio.pause();
+      syncBgmBtn();
+      localStorage.setItem(STORAGE_KEY, 'off');
+    }
+  });
+  
+  // ====================================================
+  // 오디오 이벤트 동기화
+  // ====================================================
+  bgmAudio.addEventListener('play', syncBgmBtn);
+  bgmAudio.addEventListener('pause', syncBgmBtn);
+  bgmAudio.addEventListener('volumechange', syncBgmBtn);
+  
+  // ====================================================
+  // 페이지 진입 시 시작
+  // ====================================================
+  if (userPref === 'off') {
+    // 사용자가 이전에 끈 적 있으면 시작 안 함
+    showIndicator(true);
+    indicatorText.textContent = '♪ 음악 듣기';
+  } else {
+    // 그 외에는 음소거 자동재생 시도
+    startMutedAutoplay();
+    
+    // 4초 안에 unmute 안 되면 토스트로 유도
+    setTimeout(() => {
+      if (!unlocked && bgmAudio.muted) {
+        showUnlockToast();
+      }
+    }, 4000);
+  }
+</script>
+
+</body>
+</html>
